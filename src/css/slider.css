@@ -1,0 +1,36 @@
+@import 'swiper/css/bundle';
+
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #e2e2e2;
+}
+.wrapp {
+  margin-bottom: 60px;
+}
+.slider-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+/* .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
+    width: 100%;
+} */
+
+.slider-pagination .swiper-pagination-bullet {
+  width: 13px;
+  height: 13px;
+
+  background: rgba(17, 17, 17, 1);
+}
+.slider-pagination .swiper-pagination-bullet-active {
+  width: 28px;
+  height: 13px;
+  border-radius: 50px;
+  background: #fd9222;
+}
