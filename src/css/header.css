@@ -19,3 +19,13 @@
 .nav-link:focus {
   color: #747bff;
 }
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: #960909;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  font-size: 30px;
+}
